@@ -13,20 +13,31 @@ html, body {
 
 .header {
     display: flex;
-    
+    justify-content: space-between;
+    padding: 10px 200px;
 }
 
 .headertext {
     font-size: 24px;
+    font-weight:bold;  
 }
 
 .top {
+    display: flex;
+    gap: 20px;
+}
+
+.top, .image, .small-text {
     font-size: 18px;
     color:#e5e7eb;
 }
 
 .big-text, .random {
     font-weight: 900;
+}
+
+.placeholder {
+    background-color: grey;
 }
 
 .big-text {
@@ -43,15 +54,29 @@ html, body {
 }
 
 .random {
-    
+
+}
+
+.container1, .container2, .container3 {
+    height: 400px;
 }
 
 .container3 {
+    display: flex;
+    flex-direction: column;
     background-color: #e5e7eb;
 }
 
 .quote {
-    font-style: italic;
+    font-style: oblique;
+    margin-top: 128px;
+    padding-inline: 570px;
+}
+
+.thor {
+    display:flex;
+    font-weight: bold;
+    padding-left: 1100px;
 }
 
 .footer {
@@ -59,4 +84,9 @@ html, body {
     justify-content: center;
     align-items: center;
     padding: 25px;
+}
+
+.container2 {
+    display: flex;
+    
 }

@@ -1,0 +1,62 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.header, .container1 , .footer {
+    background-color: #1f2937;
+}
+
+.headertext, .big-text, .footer {
+    color:#f9faf8
+}
+
+.header {
+    display: flex;
+    
+}
+
+.headertext {
+    font-size: 24px;
+}
+
+.top {
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
+.big-text, .random {
+    font-weight: 900;
+}
+
+.big-text {
+    font-size: 48px;
+}
+
+.blue-box, .signup {
+    background-color: #3882f6;
+}
+
+.random, .quote {
+    font-size: 36px;
+    color: #1f2937'
+}
+
+.random {
+    
+}
+
+.container3 {
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}

@@ -186,7 +186,8 @@ margin-top: 20px;
 .word1, .word2, .word3, .word4 {
     width: 150px;
     height: 100px;
-    margin-left: 20px;
+    text-align: center;
+    margin-top: 5px;
 }
 
 .boxes {
@@ -202,4 +203,10 @@ margin-top: 20px;
     width: 100px;
     border-color: #3882f6;
     border-style: solid;
+}
+
+.box1parents, .box2parents, .box3parents, .box4parents {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }

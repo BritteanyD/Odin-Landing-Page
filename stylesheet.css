@@ -7,7 +7,7 @@ html, body {
     background-color: #1f2937;
 }
 
-.headertext, .big-text, .footer {
+.headertext, .big-text, .footer, .signup, .signup-button, .time {
     color:#f9faf8
 }
 
@@ -27,7 +27,7 @@ html, body {
     gap: 20px;
 }
 
-.top, .image, .small-text {
+.top, .image, .small-text, .signup-text {
     font-size: 18px;
     color:#e5e7eb;
 }
@@ -41,6 +41,7 @@ html, body {
 }
 
 .big-text {
+    display: flex;
     font-size: 48px;
 }
 
@@ -54,10 +55,12 @@ html, body {
 }
 
 .random {
-
+display: flex;
+justify-content: center;
+margin-top: 20px;
 }
 
-.container1, .container2, .container3 {
+.container1, .container2, .container3, .container4 {
     height: 400px;
 }
 
@@ -86,7 +89,117 @@ html, body {
     padding: 25px;
 }
 
-.container2 {
+.awesome, .placeholder {
+    height: 300px;
+    width: 700px;
+}
+
+.awesome {
     display: flex;
+    flex-direction: column;
+}
+
+.small-text {
+    margin-right: 200px;
+    margin-top: 10px;
+    margin-bottom: 140px;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 125px;
+}
+
+.signup, .signup-button, .box1, .box2, .box3, .box4 {
+    border-radius: 10px;
+}
+
+.signup, .signup-button {
+    padding: 8px;
+}
+
+.signup {
+    display:flex;
+    width: 100px;
+    justify-content: center;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-button {
+    display: flex;
+    border-color: #f9faf8;
+    border-style:solid;
+    border-width: 2px;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 20px;
+    margin-top: 100px;
+}
+
+.time {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.blue-box {
+    display: flex;
+    width: 1500px;
+    height: 200px;
+    justify-content: space-evenly;
+
+}
+
+.action-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.words {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-top: 10px;
+}
+
+.word1, .word2, .word3, .word4 {
+    width: 150px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 70px;
     
+}
+
+.box1, .box2, .box3, .box4 {
+    height: 100px;
+    width: 100px;
+    border-color: #3882f6;
+    border-style: solid;
 }
